@@ -13,6 +13,7 @@ function change(nr) {
     if (nr === 1) {
         let nrImage = picture + 1
         document.getElementById("img").src = "img/" + nrImage + ".jpg"
+        document.getElementById("imgNr").innerHTML = nrImage+"/5"
         picture++
     }
     if (nr === 0) {
